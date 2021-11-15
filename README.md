@@ -1,5 +1,5 @@
 # flask-api
-exemplo prático de uma API com respostas estáticas e dinâmica com Flask + Python.
+exemplo prático de uma API com respostas estáticas e dinâmicas com Flask + Python.
 
 ## Explore 4 funções:
 - Olá mundo no flask 🌎

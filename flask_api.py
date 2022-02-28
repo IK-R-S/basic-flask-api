@@ -22,7 +22,7 @@ def hello():
 
 @app.route("/boasvindas/")
 def boasvindas():
-    return "Escreva seu nome no endereço. exemplo: http://127.0.0.1:222/boasvindas/Maria"
+    return "Escreva seu nome no endereço. exemplo: http://127.0.0.1:4444/boasvindas/Maria"
 
 @app.route("/boasvindas/<nome>")
 def bemvindo(nome):
@@ -31,7 +31,7 @@ def bemvindo(nome):
 @app.route("/soma/")
 def sum():
     return """
-    <h2>Para somar escreva os números no endereço da seguinte forma: http://127.0.0.1:222/soma/1/2</h3>
+    <h2>Para somar escreva os números no endereço da seguinte forma: http://127.0.0.1:4444/soma/1/2</h3>
     
     <p1>Neste exemplo os número foram 1 e 2; veja com 3 e 4: http://127.0.0.1:222/soma/3/4</p1>
     """
@@ -45,7 +45,7 @@ def sumnum(n1, n2):
 @app.route("/jsoncalc/")
 def jsoncalc():
     return """
-    <h2>Para somar escreva os números no endereço da seguinte forma: http://127.0.0.1:222/jsoncalc/1/2</h3>
+    <h2>Para receber os dados em JSON escreva os números no endereço da seguinte forma: http://127.0.0.1:4444/jsoncalc/1/2</h3>
     
     <p1>Neste exemplo os número foram 1 e 2; veja com 3 e 4: http://127.0.0.1:222/jsoncalc/3/4</p1>
     """
